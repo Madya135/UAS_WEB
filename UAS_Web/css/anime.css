@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: sandybrown;
+    color: black;
+    padding: 30px 0px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-class {
+    width: 50%;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+label {
+    font-size: larger;
+}
+
+.form-text {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px 20px;
+}
+
+.btn-submit {
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 350px;
+    font-size: larger;
+    border-style: none;
+    border-radius: 25px;
+    background-color: sandybrown;
+}
+
+.btn-submit:hover {
+    background-color: sandybrown;
+}
+
+textarea {
+    margin-top: 20px;
+}
+
+/* ----------- Tampil.php ----------- */
+
+.list-table {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.tambah {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: chocolate;
+    color: white;
+}
+
+.tambah:hover {
+    background-color: moccasin;
+}
+
+table {
+    table-layout: auto;
+    margin-top: 30px;
+}
+
+.thead {
+    border: none;
+    background-color: sandybrown;
+    color: white;
+}
+
+td, th {
+    padding: 15px 20px;
+}
+
+th {
+    padding: 10px 0px;
+    word-break: break-all;
+}
+
+td {
+    border-bottom: 1px solid moccasin;
+    word-break: break-all;
+}
+
+table a {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.edit a {
+    background-color: sandybrown;
+    color: chocolate;
+}
+
+.hapus a {
+    background-color: sandybrown;
+    color: chocolate;
+}
+
+.edit a:hover{
+    background-color: chocolate;
+}
+
+.hapus a:hover {
+    background-color: chocolate;
+}
